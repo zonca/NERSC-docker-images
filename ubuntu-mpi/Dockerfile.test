@@ -1,9 +1,5 @@
-FROM nersc/ubuntu-mpi:14.04
+FROM zonca/NERSC-docker-images
 
 ADD helloworld.c /helloworld.c
 
 RUN mkdir /app && mpicc /helloworld.c -o /app/hello
-
-
-
-
