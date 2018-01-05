@@ -1,4 +1,4 @@
-FROM zonca/NERSC-docker-images
+FROM zonca/nersc-docker-images
 
 ADD helloworld.c /helloworld.c
 
